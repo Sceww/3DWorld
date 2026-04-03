@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/worldapp/include"
+                "${workspaceFolder}/worldapp/include",
+                "${workspaceFolder}/vendor/glad",
+                "${workspaceFolder}/vendor/glm"
             ],
             "defines": [
                 "_DEBUG",
